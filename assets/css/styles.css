@@ -1,4 +1,15 @@
 .nav-item {
-  margin-left:10vw;
+  margin-left:11vw;
+}
+
+.container-fluid {
+  padding-top:2vh;
+  padding-left:5vw;
+  padding-right:5vw;
+}
+
+.navbar-light .navbar-toggler {
+  color:rgba(0,0,0,0);
+  border-color:rgba(0,0,0,0);
 }
 
