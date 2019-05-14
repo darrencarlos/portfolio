@@ -13,3 +13,46 @@
   border-color:rgba(0,0,0,0);
 }
 
+.heading-content {
+  padding-left:6vw;
+  padding-top:35vh;
+}
+
+@media (max-width: 450px) {
+  .heading-content h1 strong {
+    font-size:1.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .heading-content {
+    padding-top:2vh;
+    padding-left:3vw;
+  }
+}
+
+.blc {
+  font-family:Montserrat, sans-serif;
+  font-size:40px;
+  color:gray;
+}
+
+.cd-words-wrapper {
+  font-family:Montserrat, sans-serif;
+  font-size:40px;
+  color:gray;
+}
+
+@media (max-width: 450px) {
+  .blc, .cd-words-wrapper {
+    font-size:15px;
+    vertical-align:top;
+  }
+}
+
+@media (max-width: 450px) {
+  .cd-words-wrapper::after {
+    height:23px;
+  }
+}
+
