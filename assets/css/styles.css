@@ -56,3 +56,18 @@
   }
 }
 
+@media (max-width: 450px) {
+  #navcol-1 {
+    position:relative;
+    top:0;
+  }
+}
+
+@media (max-width: 450px) {
+  ul {
+    position:absolute;
+    right:0;
+    top:0;
+  }
+}
+
