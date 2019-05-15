@@ -18,6 +18,29 @@
   padding-top:35vh;
 }
 
+.btn.btn-primary {
+  height:45px;
+  width:160px;
+  border-color:rgb(33,37,41);
+  border-radius:30px;
+  font-size:13px;
+}
+
+.btn.btn-secondary {
+  height:45px;
+  width:160px;
+  border-color:rgb(33,37,41);
+  border-radius:30px;
+  font-size:13px;
+}
+
+@media (max-width: 450px) {
+  .heading-content {
+    position:absolute;
+    top:100px;
+  }
+}
+
 @media (max-width: 450px) {
   .heading-content h1 strong {
     font-size:1.5rem;
