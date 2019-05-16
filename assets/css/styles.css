@@ -80,6 +80,12 @@
 }
 
 @media (max-width: 450px) {
+  .cd-headline.clip {
+    height:30px;
+  }
+}
+
+@media (max-width: 450px) {
   #navcol-1 {
     position:relative;
   }
@@ -90,5 +96,33 @@
     position:absolute;
     right:0;
   }
+}
+
+@media (max-width: 450px) {
+  .btn.btn-primary, .btn.btn-secondary {
+    width:inherit;
+    height:inherit;
+    font-size:10px;
+    margin-right:10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .btn.btn-primary, .btn.btn-secondary {
+    width:inherit;
+    height:inherit;
+    font-size:10px;
+    margin-right:10px;
+  }
+}
+
+@media (max-width: 450px) {
+  #btn-container {
+    padding:0;
+  }
+}
+
+.row {
+  width:inherit;
 }
 
