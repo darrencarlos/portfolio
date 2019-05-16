@@ -122,7 +122,9 @@
   }
 }
 
-.row {
-  width:inherit;
+@media (max-width: 450px) {
+  #col-btn-secondary {
+    margin:0;
+  }
 }
 
