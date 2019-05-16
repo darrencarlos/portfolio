@@ -128,3 +128,9 @@
   }
 }
 
+@media (max-width: 450px) {
+  #row-btn {
+    max-width:50vw;
+  }
+}
+
